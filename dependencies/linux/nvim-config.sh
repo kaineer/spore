@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-git clone https://github.com/kaineer/nvim-config.git ~/git/config/nvim >/dev/null 2>/dev/null
+REPO_URL=https://github.com/kaineer/nvim-config.git
+DEST_DIR="$HOME/git/config/nvim"
+
+git clone $REPO_URL $DEST_DIR >/dev/null 2>/dev/null
 
 if [[ "$?" != "0" ]]; then
   exit 1
