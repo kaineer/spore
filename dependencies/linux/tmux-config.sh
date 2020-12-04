@@ -9,5 +9,5 @@ else
   TMUX_CONF_FILE="$HOME/.tmux.conf"
 
   echo "TMUX_CFG=$HOME/git/config/tmux" > $TMUX_CONF_FILE
-  echo "source $TMUX_CFG/config.conf"   >> $TMUX_CONF_FILE
+  echo "source \$TMUX_CFG/config.conf"   >> $TMUX_CONF_FILE
 fi
