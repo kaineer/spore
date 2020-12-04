@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# needs: curl
 
 USERCONTENT_HOST="raw.githubusercontent.com"
 NVM_VERSION="0.37.2"
