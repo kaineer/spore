@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# needs: git
+# needs: git zsh
 
 git clone https://github.com/kaineer/tmux-config.git ~/git/config/tmux >/dev/null 2>/dev/null
 
