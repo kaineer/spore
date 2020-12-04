@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
+USERCONTENT_HOST="raw.githubusercontent.com"
 NVM_VERSION="0.37.2"
-NVM_URL="https://raw.githubusercontent.com/nvm-sh/nvm/v$NVM_VERSION/install.sh"
+NVM_URL="https://$USERCONTENT_HOST/nvm-sh/nvm/v$NVM_VERSION/install.sh"
 
 if [[ "$(which curl)" != "" ]]; then
   echo " > Installing nvm using curl"
