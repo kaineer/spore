@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 # needs: curl
 
+# Node version manager
+#  * makes possible to use several node versions on same machine
+#  * makes possible to install node versions into home folder
+#
+
 USERCONTENT_HOST="raw.githubusercontent.com"
 NVM_VERSION="0.37.2"
 NVM_URL="https://$USERCONTENT_HOST/nvm-sh/nvm/v$NVM_VERSION/install.sh"
