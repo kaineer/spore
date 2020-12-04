@@ -10,13 +10,17 @@ Prerequisites
 Install
 -------
 
+```
  $ git clone git@github.com:kaineer/spore.git
  $ ./seed.sh plant
+```
 
 Use
 ---
 
+```
  $ spore jq # -> installs jq unless already installed
+```
 
 FAQ
 ---
