@@ -23,7 +23,7 @@ for PLATFORM in $(echo $DEPENDENCY_CHAIN); do
       fi
     done
 
-    echo ' > done with subdependencies for $DEPENDENCY.'
+    echo " > done with subdependencies for $DEPENDENCY."
 
     source $FILE
     if [[ "$?" == "0" ]]; then
