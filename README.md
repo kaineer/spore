@@ -25,8 +25,8 @@ Use
 FAQ
 ---
 
- * which %something% does not find needed thing
+ * `which %something%` does not find needed thing
 
- Create script in planted/%something%.sh which will
+ Create script in `planted/%something%.sh` which will
  detect your something in file system and returns 0 in case
  it is already there.

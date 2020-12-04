@@ -17,7 +17,7 @@ install_aliases_loading() {
   echo "  for ALIAS_FILE in \$(ls -1); do" >>$FILE
   echo "    source \$ALIAS_FILE"           >>$FILE
   echo "  done"                            >>$FILE
-  echo "  cd -"                            >>$FILE
+  echo "  cd - > /dev/null"                >>$FILE
   echo "fi"                                >>$FILE
 }
 
