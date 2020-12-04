@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-# TODO
-# Check for ~/bin/aliases dir
-# Check for installed shells and for "# loading aliases" in .<shell>rc
-
 PATTERN="# loading aliases"
 
 ALIASES_DIR=false
