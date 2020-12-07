@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# needs: node-stable
 
 REPO_URL=https://github.com/kaineer/nvim-config.git
 DEST_DIR="$HOME/git/config/nvim"
