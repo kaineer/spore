@@ -11,6 +11,7 @@ if [[ "$?" != "0" ]]; then
 else
   NVIM_CONF_FILE="$HOME/.config/nvim/init.vim"
 
+  mkdir -p "$HOME/.config/nvim"
   echo "\""                                > $NVIM_CONF_FILE
   echo "source ~/git/config/nvim/init.vim" >> $NVIM_CONF_FILE
 fi
